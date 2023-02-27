@@ -1,0 +1,111 @@
+body {
+  font-family: "Merriweather", serif;
+  margin: 0;
+  background-color: #f6f6f6;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 5.625rem;
+  color: #0078aa;
+  margin: 20px 0;
+}
+h2,
+h3 {
+  font-weight: bold;
+  font-size: 3rem;
+  color: #3ab4f2;
+  margin: 30px 0;
+}
+
+h4 {
+  font-weight: normal;
+  font-size: 2rem;
+  color: #3ab4f2;
+  margin: 3% 0;
+}
+
+p {
+  font-family: "Quattrocento Sans", sans-serif;
+  line-height: 2;
+}
+
+.parent-container {
+  padding: 3%;
+}
+
+/* Container one  */
+
+.container-one {
+  border: solid 3px #f2df3a;
+  position: absolute;
+  width: 50%;
+  padding: 5px 0 5px 15px;
+}
+
+.head-three {
+  text-decoration: line-through;
+  text-decoration-color: #f2df3a;
+}
+
+/* Container one child  */
+
+.container-one-child {
+  border: solid 3px black;
+}
+
+.drawing-image {
+  width: 80%;
+}
+
+/* Container two  */
+
+.container-two {
+  position: absolute;
+  right: 50px;
+  width: 40%;
+}
+
+.images-vacation {
+  width: 80%;
+}
+
+.images-text {
+  width: 80%;
+}
+
+/* Container experimental  */
+
+.experimental {
+  position: absolute;
+  background-color: pink;
+}
+
+@media (max-width: 1070px) {
+  h1 {
+    padding: 15px;
+  }
+
+  .container-one {
+    position: static;
+    width: 90%;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .container-two {
+    position: static;
+    width: 90%;
+    padding: 30px;
+    text-align: center;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .images-text {
+    width: 80%;
+    margin: 20px auto;
+  }
+}
